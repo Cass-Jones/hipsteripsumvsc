@@ -3,11 +3,14 @@
   "displayName": "HipsterIpsumVSC",
   "description": "Shortcut to insert boiler plate copy using the Hipster Ipsum API.",
   "version": "0.0.1",
+  "publisher": "Cass Jones",
+  "repository": "https://github.com/Cass-Jones/hipsteripsumvsc",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets"
   ],
   "activationEvents": [
     "onCommand:hipsteripsumvsc.helloWorld"
@@ -18,6 +21,20 @@
       {
         "command": "hipsteripsumvsc.helloWorld",
         "title": "Hello World"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
       }
     ]
   },
