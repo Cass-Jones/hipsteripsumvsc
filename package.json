@@ -21,6 +21,14 @@
       {
         "command": "hipsteripsumvsc.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "hispteripsumvsc.getParas",
+        "title": "Get Paras"
+      },
+      {
+        "command": "hipsteripsumvsc.getSentences",
+        "title": "Get Sentences"
       }
     ],
     "snippets": [
